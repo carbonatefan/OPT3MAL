@@ -4,7 +4,7 @@ This directory contains code to predict mean annual air temperatures (MAAT) and 
 
 *Global calibration of novel 3-hydroxy fatty acid based temperature and pH proxies\
 Canfa Wang, James A. Bendle, Huan Yang, Yi Yang, Alice Hardman, Afrifa Yamoah, Amy Thorpe, Ilya Mandel, Sarah E. Greene, Junhua Huang, and Shucheng Xie\
-Climate of the Past Discussions.*\
+Geochimica et Cosmochimica Acta.*\
 [doi:xxxxxx](https://doi.org/xxxxx)
 
 The model with its built-in nearest neighbour distance screening is termed 'OPT3MAL' - Optimised Ph and Temperature predictions from 3-hydroxy-fatty-acids via MAchine Learning. See manuscript for further details.
