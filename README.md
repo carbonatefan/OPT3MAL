@@ -15,7 +15,7 @@ This repository contains all of the code and files you will need to run OPT3MAL.
 
 **README.md**: The readme you are currently reading.\
 **OPT3MAL.m**: Calculates Nearest Neighbour Distances, MAAT, and pH using the GPR model.\
-**3_OH_FA_CalibrationData.csv**: Modern calibration dataset (Wang et al., 2020; as above).\
+**3_OH_FA_CalibrationData.csv**: Modern calibration dataset (Wang et al., 2021; as above).\
 **OPT3MAL_Demo.csv**: Demo 3-OH-FA dataset.\
 
 ## Prerequisites
@@ -30,13 +30,13 @@ Running the GPR model will require MATLAB (back compatible to version 2015b).
 To run the OPT3MAL on the demo dataset, simply open and run OPT3MAL.m. This will load the provided modern calibration dataset: 
 
 ```
-ModernCalibration.csv
+3_OH_FA_CalibrationData.csv
 ```
 
 and the provided demo dataset:
 
 ```
-demo.csv
+OPT3MAL_Demo.csv
 ```
 and will return:
 
@@ -46,16 +46,16 @@ and will return:
 4) A plot of the predicted MAAT with error bars (1 standard deviation) vs. sample number. Samples failing the nearest neighbour screening (>0.5) are plotted in grey; samples passing the screening test are coloured according to their nearest neighbour distance.
 5) A plot of the predicted pH with error bars (1 standard deviation) vs. sample number. Samples failing the nearest neighbour screening (>0.5) are plotted in grey; samples passing the screening test are coloured according to their nearest neighbour distance.
 
-To predict MAAT and pH from a new dataset, format your 3-OH-FA fractional abundance dataset using the demo dataset as a guide and save it as a csv file in the same directory. Then open OPT3MAL.m, change the filename loaded in line 35, set your desired output file names in lines 40-44, and run the script.
+To predict MAAT and pH from a new dataset using the global calibration provided in Wang et al., 2021, format your 3-OH-FA fractional abundance dataset using the demo dataset as a guide and save it as a csv file in the same directory. Then open OPT3MAL.m, change the filename loaded in line 35, set your desired output file names in lines 40-44, and run the script. To use a different calibration dataset (e.g. a regional calibration or an expanded global dataset), make a new calibration csv file following the structure of the calibration dataset provided and load this instead of '3_OH_FA_CalibrationData.csv' in line 37.
 
 NOTES: OPT3MAL will make MAAT and pH predictions for samples with contraindicative Nearest Neighbour Distances; we recommend these predictions should be screened out before publishing. Nearest neighbour distances will differ in pH and MAAT space for the same sample, i.e. there may be samples for which the calibration dataset provides robust constraints for pH, but not for MAAT and vice versa. For further discussion of nearest neighbour distance screenings, see Eley et al.: OPTiMAL: A new machine learning approach for GDGT-based palaeothermometry, Climate of the Past Discussions, [doi:10.5194/cp-2019-60](https://doi.org/10.5194/cp-2019-60).
 
 ## Publishing outputs from this code
 
-Publications using this code should cite Wang et al., 2020. In addition, the following data are required to ensure your work is reproducible:
+Publications using this code should cite Wang et al., 2021. In addition, the following data are required to ensure your work is reproducible:
 1) Full relative abundance data for all 3-OH-FA compounds
 2) Citation of modern calibration dataset used
-3) Publication of full calibration dataset if it has not been previously published elsewhere
+3) Publication of the full calibration dataset used, if it has not been previously published elsewhere
 
 ## Authors
 
