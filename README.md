@@ -46,7 +46,7 @@ and will return:
 4) A plot of the predicted MAAT with error bars (1 standard deviation) vs. sample number. Samples failing the nearest neighbour screening (>0.5) are plotted in grey; samples passing the screening test are coloured according to their nearest neighbour distance.
 5) A plot of the predicted pH with error bars (1 standard deviation) vs. sample number. Samples failing the nearest neighbour screening (>0.5) are plotted in grey; samples passing the screening test are coloured according to their nearest neighbour distance.
 
-NOTES: 
+## User notes 
 1) To predict MAAT and pH from a new dataset using the global calibration provided in Wang et al., 2021, format your 3-OH-FA fractional abundance dataset using the demo dataset as a guide and save it as a csv file in the same directory. Then open OPT3MAL.m, change the filename loaded in line 35, set your desired output file names in lines 40-44, and run the script.
 2) OPT3MAL will make MAAT and pH predictions for samples with contraindicative Nearest Neighbour Distances; we recommend these predictions be screened out before publishing. Nearest neighbour distances will differ in pH and MAAT space for the same sample, i.e. there may be samples for which a calibration dataset provides robust constraints for pH, but not for MAAT and vice versa. For further discussion of nearest neighbour distance screenings, see Dunkley Jones et al., 2020: OPTiMAL: A new machine learning approach for GDGT-based palaeothermometry, Climate of the Past, [doi:10.5194/cp-16-2599-2020](https://doi.org/10.5194/cp-16-2599-2020).
 3)  As a default, OPT3MAL builds the GPR model using only the C15 and C17 3-OH-FA compounds. If you wish to make predictions using all compounds instead, change the setting in line 47 to 'true'.
