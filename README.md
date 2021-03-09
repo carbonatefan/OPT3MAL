@@ -4,7 +4,7 @@ This directory contains code to predict mean annual air temperatures (MAAT) and 
 
 *Distribution of bacterial 3-hydroxy fatty acids in global soils: implications for temperature and pH proxies\
 Canfa Wang, James A. Bendle, Huan Yang, Yi Yang, Alice Hardman, Afrifa Yamoah, Amy Thorpe, Ilya Mandel, Sarah E. Greene, Junhua Huang, and Shucheng Xie\
-Geochimica et Cosmochimica Acta (in press) *\
+Geochimica et Cosmochimica Acta (in press)*\
 [doi:xxxxxx](https://doi.org/xxxxx)
 
 The model with its built-in nearest neighbour distance screening is termed '**OPT3MAL**' - **O**ptimised **P**H and **T**emperature predictions from **3**-hydroxy-fatty-acids via **MA**chine **L**earning. See manuscript for further details.
