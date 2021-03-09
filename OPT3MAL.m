@@ -1,7 +1,7 @@
-%%%% This script is published in conjunction with Wang et al., 2020.
-%%%% Global calibration of novel 3-hydroxy fatty acid based temperature and
-%%%% pH proxies. [JOURNAL, doi:] Code and README housed at:
-%%%% https://github.com/carbonatefan/OPT3MAL
+%%%% This script is published in conjunction with Wang et al., 2021.
+%%%% Distribution of bacterial 3-hydroxy fatty acids in global soils: implications
+%%%% for temperature and pH proxies [Geochimica et Cosmochimica Acta, doi:] 
+%%%% Code and README housed at: https://github.com/carbonatefan/OPT3MAL
 
 %%%% This script:
     %%%% Reads in a modern calibration dataset and an ancient 3-OH-FA dataset.
