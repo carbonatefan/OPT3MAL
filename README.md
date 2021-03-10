@@ -2,7 +2,7 @@
 
 This directory contains code to predict mean annual air temperatures (MAAT) and pH from the relative abundances of 3-hydroxy fatty acids in soils using a machine learning approach as described in:
 
-*Distribution of bacterial 3-hydroxy fatty acids in global soils: implications for temperature and pH proxies\
+*Global calibration of novel 3-hydroxy fatty acid based temperature and pH proxies\
 Canfa Wang, James A. Bendle, Huan Yang, Yi Yang, Alice Hardman, Afrifa Yamoah, Amy Thorpe, Ilya Mandel, Sarah E. Greene, Junhua Huang, and Shucheng Xie\
 Geochimica et Cosmochimica Acta (in press)*\
 [doi:xxxxxx](https://doi.org/xxxxx)
